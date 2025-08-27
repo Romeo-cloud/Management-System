@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "D:\\keyz\\C#\\Management System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\unauthorizedmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\unauthorizedmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\validationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\validationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\identityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\identityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +55,8 @@
       "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\identityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\identityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|d:\\keyz\\c#\\management system\\management system api\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C61528F-B62E-4C7F-84AC-3BE478ADD9A0}|Management System Api\\Management System Api.csproj|solutionrelative:management system api\\extensions\\swaggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,77 +98,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SalesController.cs",
-              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Controllers\\SalesController.cs",
-              "RelativeDocumentMoniker": "Management System Api\\Controllers\\SalesController.cs",
-              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Controllers\\SalesController.cs",
-              "RelativeToolTip": "Management System Api\\Controllers\\SalesController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T00:42:19.468Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\DTOs\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "Management System Api\\Models\\DTOs\\CategoryDto.cs",
-              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\DTOs\\CategoryDto.cs",
-              "RelativeToolTip": "Management System Api\\Models\\DTOs\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T19:42:50.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductDtos.cs",
-              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\DTOs\\ProductDtos.cs",
-              "RelativeDocumentMoniker": "Management System Api\\Models\\DTOs\\ProductDtos.cs",
-              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\DTOs\\ProductDtos.cs",
-              "RelativeToolTip": "Management System Api\\Models\\DTOs\\ProductDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T19:51:22.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Implementations\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Management System Api\\Services\\Implementations\\CategoryService.cs",
-              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Implementations\\CategoryService.cs",
-              "RelativeToolTip": "Management System Api\\Services\\Implementations\\CategoryService.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T20:33:32.819Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Implementations\\ProductService.cs",
-              "RelativeDocumentMoniker": "Management System Api\\Services\\Implementations\\ProductService.cs",
-              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Implementations\\ProductService.cs",
-              "RelativeToolTip": "Management System Api\\Services\\Implementations\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Title": "MiddlewareExtensions.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Extensions\\MiddlewareExtensions.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeToolTip": "Management System Api\\Extensions\\MiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T20:15:01.341Z",
+              "WhenOpened": "2025-08-26T20:17:26.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidationMiddleware.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\ValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Extensions\\ValidationMiddleware.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\ValidationMiddleware.cs",
+              "RelativeToolTip": "Management System Api\\Extensions\\ValidationMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:10:39.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Extensions\\RequestLoggingMiddleware.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "Management System Api\\Extensions\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:03:53.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Program.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Program.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Program.cs",
+              "RelativeToolTip": "Management System Api\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T23:36:12.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnauthorizedMiddleware.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\UnauthorizedMiddleware.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Extensions\\UnauthorizedMiddleware.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\UnauthorizedMiddleware.cs",
+              "RelativeToolTip": "Management System Api\\Extensions\\UnauthorizedMiddleware.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:27:40.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Extensions\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Management System Api\\Extensions\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T20:01:15.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Extensions\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Management System Api\\Extensions\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T19:49:02.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Controllers\\SalesController.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "Management System Api\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T00:42:19.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IProductService.cs",
               "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Management System Api\\Services\\Interfaces\\IProductService.cs",
@@ -152,25 +218,11 @@
               "RelativeToolTip": "Management System Api\\Services\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T20:41:07.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T20:41:07.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Program.cs",
-              "RelativeDocumentMoniker": "Management System Api\\Program.cs",
-              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Program.cs",
-              "RelativeToolTip": "Management System Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T23:36:12.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\Domain\\Product.cs",
               "RelativeDocumentMoniker": "Management System Api\\Models\\Domain\\Product.cs",
@@ -182,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Management System Api\\Controllers\\ProductsController.cs",
@@ -190,12 +242,11 @@
               "RelativeToolTip": "Management System Api\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAQwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T00:11:16.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T00:11:16.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "IdentityExtensions.cs",
               "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\IdentityExtensions.cs",
               "RelativeDocumentMoniker": "Management System Api\\Extensions\\IdentityExtensions.cs",
@@ -208,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "Management System Api\\Extensions\\ServiceCollectionExtensions.cs",
@@ -216,11 +267,73 @@
               "RelativeToolTip": "Management System Api\\Extensions\\ServiceCollectionExtensions.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAuwCwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T23:39:09.654Z"
+              "WhenOpened": "2025-08-21T23:39:09.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "SwaggerExtensions.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\SwaggerExtensions.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Extensions\\SwaggerExtensions.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\SwaggerExtensions.cs",
+              "RelativeToolTip": "Management System Api\\Extensions\\SwaggerExtensions.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T23:26:49.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Services\\Implementations\\ProductService.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "Management System Api\\Services\\Implementations\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T20:15:01.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "Management System Api\\Services\\Implementations\\CategoryService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T20:33:32.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductDtos.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\DTOs\\ProductDtos.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Models\\DTOs\\ProductDtos.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\DTOs\\ProductDtos.cs",
+              "RelativeToolTip": "Management System Api\\Models\\DTOs\\ProductDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T19:51:22.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Management System Api\\Models\\DTOs\\CategoryDto.cs",
+              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "Management System Api\\Models\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T19:42:50.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Services\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Management System Api\\Services\\Interfaces\\ICategoryService.cs",
@@ -232,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Models\\Domain\\Category.cs",
               "RelativeDocumentMoniker": "Management System Api\\Models\\Domain\\Category.cs",
@@ -244,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Management System Api\\Controllers\\CategoryController.cs",
@@ -256,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Management System Api\\Data\\AppDbContext.cs",
@@ -265,18 +378,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T19:57:04.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SwaggerExtensions.cs",
-              "DocumentMoniker": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\SwaggerExtensions.cs",
-              "RelativeDocumentMoniker": "Management System Api\\Extensions\\SwaggerExtensions.cs",
-              "ToolTip": "D:\\keyz\\C#\\Management System\\Management System Api\\Extensions\\SwaggerExtensions.cs",
-              "RelativeToolTip": "Management System Api\\Extensions\\SwaggerExtensions.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T23:26:49.84Z"
             }
           ]
         }

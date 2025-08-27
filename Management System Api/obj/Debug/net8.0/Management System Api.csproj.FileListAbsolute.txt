@@ -238,3 +238,4 @@ D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\refint\Manag
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\Management System Api.pdb
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\Management System Api.genruntimeconfig.cache
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\ref\Management System Api.dll
+D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\Management System Api.sourcelink.json
