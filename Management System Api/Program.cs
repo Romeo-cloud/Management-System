@@ -25,28 +25,27 @@ builder.Services.AddCorsPolicy(builder.Configuration);
 builder.Services.AddIpRateLimiting();
 builder.Services.AddScoped<CreditService>();
 
-
 var app = builder.Build();
 
 // ==================== Auto-migrate & Seed Roles/Admin ====================
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    await db.Database.EnsureCreatedAsync(); // Replace with db.Database.MigrateAsync() in production
+    await db.Database.EnsureCreatedAsync(); // ⚠️ Replace with db.Database.MigrateAsync() in production
 
     var roleMgr = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
     var userMgr = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
     // Ensure roles exist
     foreach (var r in new[] { "Admin", "Salesperson", "Operator" })
+    {
         if (!await roleMgr.RoleExistsAsync(r))
             await roleMgr.CreateAsync(new IdentityRole(r));
+    }
 
-    // Seed admin if credentials exist
-    var adminEmail = Environment.GetEnvironmentVariable("ADMIN_EMAIL")
-                     ?? app.Configuration["Seed:AdminEmail"];
-    var adminPwd = Environment.GetEnvironmentVariable("ADMIN_PASSWORD")
-                   ?? app.Configuration["Seed:AdminPassword"];
+    // ✅ Get admin credentials (env overrides config)
+    var adminEmail = app.Configuration["Seed:AdminEmail"];
+    var adminPwd = app.Configuration["Seed:AdminPassword"];
 
     if (!string.IsNullOrWhiteSpace(adminEmail) &&
         !string.IsNullOrWhiteSpace(adminPwd) &&
@@ -64,7 +63,7 @@ using (var scope = app.Services.CreateScope())
         if (result.Succeeded)
         {
             await userMgr.AddToRoleAsync(admin, "Admin");
-            Console.WriteLine($" Admin account created: {adminEmail}");
+            Console.WriteLine($"✅ Admin account created: {adminEmail}");
         }
         else
         {
@@ -86,7 +85,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseSerilogRequestLogging();
-app.UseRequestLogging();          //  Custom logging middleware
+app.UseRequestLogging();          // Custom logging middleware
 app.UseApiExceptionHandler();     // Global exception handling
 app.UseValidationHandler();       // Model validation errors -> JSON
 

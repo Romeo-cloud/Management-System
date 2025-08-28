@@ -11,8 +11,10 @@ namespace Management_System_Api.Extensions
     {
         public static IServiceCollection AddIdentityAndJwt(this IServiceCollection services, IConfiguration config)
         {
+            // ==================== Identity Setup ====================
             services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
+                // Password rules
                 options.Password.RequireDigit = true;
                 options.Password.RequireLowercase = true;
                 options.Password.RequireUppercase = true;
@@ -20,17 +22,27 @@ namespace Management_System_Api.Extensions
                 options.Password.RequiredLength = 12;
                 options.Password.RequiredUniqueChars = 3;
 
+                // Lockout rules
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
                 options.Lockout.MaxFailedAccessAttempts = 5;
                 options.Lockout.AllowedForNewUsers = true;
 
+                // User rules
                 options.User.RequireUniqueEmail = true;
                 options.SignIn.RequireConfirmedEmail = true;
             })
             .AddEntityFrameworkStores<AppDbContext>()
             .AddDefaultTokenProviders();
 
-            var key = Encoding.UTF8.GetBytes(config["Jwt:Key"]!);
+            // ==================== JWT Setup ====================
+            var jwtKey = Environment.GetEnvironmentVariable("JWT__KEY") ?? config["Jwt:Key"];
+            var jwtIssuer = Environment.GetEnvironmentVariable("JWT__ISSUER") ?? config["Jwt:Issuer"];
+            var jwtAudience = Environment.GetEnvironmentVariable("JWT__AUDIENCE") ?? config["Jwt:Audience"];
+
+            if (string.IsNullOrEmpty(jwtKey))
+                throw new InvalidOperationException("JWT Key is not configured. Please set JWT__KEY in environment variables or appsettings.json.");
+
+            var key = Encoding.UTF8.GetBytes(jwtKey);
 
             services.AddAuthentication(o =>
             {
@@ -45,25 +57,22 @@ namespace Management_System_Api.Extensions
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = config["Jwt:Issuer"],
-                    ValidAudience = config["Jwt:Audience"],
+                    ValidIssuer = jwtIssuer,
+                    ValidAudience = jwtAudience,
                     IssuerSigningKey = new SymmetricSecurityKey(key),
                     ClockSkew = TimeSpan.Zero
                 };
             });
 
-            // ✅ Add Role-based Authorization policies here
+            // ==================== Authorization Policies ====================
             services.AddAuthorization(options =>
             {
-                // Admin has full access
                 options.AddPolicy("RequireAdmin", policy =>
                     policy.RequireRole("Admin"));
 
-                // Operator can only view products
                 options.AddPolicy("RequireOperator", policy =>
                     policy.RequireRole("Operator"));
 
-                // Salesperson can only handle sales
                 options.AddPolicy("RequireSales", policy =>
                     policy.RequireRole("Salesperson"));
             });
@@ -71,7 +80,7 @@ namespace Management_System_Api.Extensions
             return services;
         }
 
-        // ✅ Seed Roles at startup
+        // ==================== Seed Roles at startup ====================
         public static async Task SeedRolesAsync(IServiceProvider serviceProvider)
         {
             using var scope = serviceProvider.CreateScope();
