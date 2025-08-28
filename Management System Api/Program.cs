@@ -1,6 +1,7 @@
 using Management_System_Api.Data;
 using Management_System_Api.Extensions;
 using Management_System_Api.Models.Domain;
+using Management_System_Api.Services;
 using Microsoft.AspNetCore.Identity;
 using Serilog;
 
@@ -22,6 +23,8 @@ builder.Services.AddAppServices();
 builder.Services.AddMappingAndValidation();
 builder.Services.AddCorsPolicy(builder.Configuration);
 builder.Services.AddIpRateLimiting();
+builder.Services.AddScoped<CreditService>();
+
 
 var app = builder.Build();
 

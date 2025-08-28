@@ -198,6 +198,48 @@
     ]
   },
   {
+    "ContainingType": "Management_System_Api.Controllers.CreditController",
+    "Method": "GetAllCredits",
+    "RelativePath": "api/Credit/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Management_System_Api.Controllers.CreditController",
+    "Method": "CreateCreditSale",
+    "RelativePath": "api/Credit/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Management_System_Api.Models.DTO.CreateCreditSaleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Management_System_Api.Controllers.CreditController",
+    "Method": "RecordPayment",
+    "RelativePath": "api/Credit/payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Management_System_Api.Models.DTO.RecordPaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Management_System_Api.Controllers.InvoicesController",
     "Method": "GetPdf",
     "RelativePath": "api/Invoices/{invoiceId}/pdf",
