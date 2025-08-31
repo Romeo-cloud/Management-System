@@ -231,7 +231,6 @@ D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\staticwebass
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\staticwebassets.development.json
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\Manageme.724EA80D.Up2Date
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\Management System Api.dll
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\refint\Management System Api.dll
@@ -239,3 +238,9 @@ D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\Management S
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\Management System Api.genruntimeconfig.cache
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\ref\Management System Api.dll
 D:\keyz\C#\Management System\Management System Api\obj\Debug\net8.0\Management System Api.sourcelink.json
+D:\keyz\C#\Management System\Management System Api\bin\Debug\net8.0\publish\web.config
+D:\keyz\C#\Management System\Management System Api\bin\Debug\net8.0\publish\appsettings.Development.json
+D:\keyz\C#\Management System\Management System Api\bin\Debug\net8.0\publish\appsettings.json
+D:\keyz\C#\Management System\Management System Api\bin\Debug\net8.0\publish\Management System Api.deps.json
+D:\keyz\C#\Management System\Management System Api\bin\Debug\net8.0\publish\Management System Api.runtimeconfig.json
+D:\keyz\C#\Management System\Management System Api\bin\Debug\net8.0\publish\Management System Api.staticwebassets.endpoints.json
