@@ -64,7 +64,6 @@ using (var scope = app.Services.CreateScope())
         {
             await userMgr.AddToRoleAsync(admin, "Admin");
             Console.WriteLine($"Admin account created: {adminEmail}");
-            Console.WriteLine($"Admin account created: {adminEmail}");
         }
         else
         {
@@ -79,11 +78,14 @@ using (var scope = app.Services.CreateScope())
 }
 
 // ==================== Middleware Pipeline ====================
-if (app.Environment.IsDevelopment())
+
+// ✅ Enable Swagger in ALL environments (including Azure)
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Management System API v1");
+    c.RoutePrefix = "swagger"; // Swagger at /swagger
+});
 
 app.UseSerilogRequestLogging();
 app.UseRequestLogging();          // Custom logging middleware
