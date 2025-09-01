@@ -63,7 +63,8 @@ using (var scope = app.Services.CreateScope())
         if (result.Succeeded)
         {
             await userMgr.AddToRoleAsync(admin, "Admin");
-            Console.WriteLine($"✅ Admin account created: {adminEmail}");
+            Console.WriteLine($"Admin account created: {adminEmail}");
+            Console.WriteLine($"Admin account created: {adminEmail}");
         }
         else
         {
