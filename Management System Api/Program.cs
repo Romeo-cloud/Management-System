@@ -2,6 +2,7 @@ using Management_System_Api.Data;
 using Management_System_Api.Extensions;
 using Management_System_Api.Models.Domain;
 using Management_System_Api.Services;
+using Management_System_Api.Middleware; // JWT cookie middleware
 using Microsoft.AspNetCore.Identity;
 using Serilog;
 
@@ -18,7 +19,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(o => SwaggerExtensions.ConfigureSwaggerJwt(o));
 
 builder.Services.AddAppDb(builder.Configuration);
+
+// Add Identity + JWT Bearer authentication (supports Authorization header)
 builder.Services.AddIdentityAndJwt(builder.Configuration);
+
 builder.Services.AddAppServices();
 builder.Services.AddMappingAndValidation();
 builder.Services.AddCorsPolicy(builder.Configuration);
@@ -31,21 +35,19 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    await db.Database.EnsureCreatedAsync(); // ⚠️ Replace with db.Database.MigrateAsync() in production
+    await db.Database.EnsureCreatedAsync();
 
     var roleMgr = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
     var userMgr = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
-    // Ensure roles exist
     foreach (var r in new[] { "Admin", "Salesperson", "Operator" })
     {
         if (!await roleMgr.RoleExistsAsync(r))
             await roleMgr.CreateAsync(new IdentityRole(r));
     }
 
-    // ✅ Get admin credentials (env overrides config)
-    var adminEmail = app.Configuration["Seed:AdminEmail"];
-    var adminPwd = app.Configuration["Seed:AdminPassword"];
+    var adminEmail = builder.Configuration["Seed:AdminEmail"];
+    var adminPwd = builder.Configuration["Seed:AdminPassword"];
 
     if (!string.IsNullOrWhiteSpace(adminEmail) &&
         !string.IsNullOrWhiteSpace(adminPwd) &&
@@ -71,35 +73,38 @@ using (var scope = app.Services.CreateScope())
                 string.Join(", ", result.Errors.Select(e => e.Description)));
         }
     }
-    else
-    {
-        Console.WriteLine(" No admin credentials found. Skipping admin creation.");
-    }
 }
 
 // ==================== Middleware Pipeline ====================
-
-// ✅ Enable Swagger in ALL environments (including Azure)
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Management System API v1");
-    c.RoutePrefix = "swagger"; // Swagger at /swagger
+    c.RoutePrefix = "swagger";
+    c.ConfigObject.AdditionalItems["withCredentials"] = true; // allow cookies
 });
 
 app.UseSerilogRequestLogging();
-app.UseRequestLogging();          // Custom logging middleware
-app.UseApiExceptionHandler();     // Global exception handling
-app.UseValidationHandler();       // Model validation errors -> JSON
+app.UseRequestLogging();
+app.UseApiExceptionHandler();
+app.UseValidationHandler();
 
 app.UseHttpsRedirection();
 app.UseSecureHeaders();
 app.UseCors("DefaultCors");
 app.UseRateLimiter();
 
+// ==================== Authentication ====================
+
+// 1️⃣ Cookie JWT middleware (Swagger/browser)
+app.UseJwtCookie();
+
+// 2️⃣ Standard JWT Bearer (Authorization header for CLI/Postman)
 app.UseAuthentication();
-app.UseUnauthorizedHandler();     // Catch 401 & 403 -> JSON
+
+app.UseUnauthorizedHandler();
 app.UseAuthorization();
 
 app.MapControllers();
+
 app.Run();
